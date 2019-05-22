@@ -19,26 +19,26 @@
     </dependencies>
     <scm>
         <connection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</connection>
-        <url>https://github.com/javaee-samples/javaee7-simple-sample.git</url>
-        <developerConnection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</developerConnection>
+        <url>https://github.com/rveeramalai/mvnrepo.git</url>
+        <developerConnection>scm:git:https://github.com/rveeramalai/mvnrepo.git</developerConnection>
         <tag>v1.5</tag>
     </scm>
     <developers>
         <developer>
-            <name>Arun Gupta</name>
-            <email>arun.gupta@gmail.com</email>
+            <name>Rengaraj Veeramalai</name>
+            <email>rngraj@gmail.com</email>
         </developer>
     </developers>
     <distributionManagement>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://10.146.0.2:8081/repository/mobilebank-rel/</url>
+            <url>http://localhost:8081/repository/mobilebank-rel/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://10.146.0.2:8081/repository/mobilebank-snap/</url>
+            <url>http://localhost:8081/repository/mobilebank-snap/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
